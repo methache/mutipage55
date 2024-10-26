@@ -1,0 +1,81 @@
+/* Login.css */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.login-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #5cb85c;
+    box-shadow: 0 0 8px rgba(92, 184, 92, 0.4);
+}
+
+.animated-input {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.85);
+    transition: box-shadow 0.3s ease;
+}
+
+.animated-input:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: #4cae4c;
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+}
+
+.login-button:active {
+    transform: scale(0.98); /* Button shrink on click */
+}
